@@ -1,0 +1,9 @@
+.card{
+    padding:10px;
+    margin: 10px;
+    top: 100px;
+}
+header {
+    background-color: skyblue;
+    height: 20vh;
+}
