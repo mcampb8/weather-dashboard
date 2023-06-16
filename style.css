@@ -21,6 +21,9 @@
     max-width:10vh;
     max-height: 10vh;
 }
+.btn{
+    background-color: goldenrod;
+}
 header {
     background-color: skyblue;
     height: 20vh;
