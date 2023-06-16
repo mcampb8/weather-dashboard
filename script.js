@@ -115,22 +115,17 @@ function saveCity(city) {
     }
   }
 }
-
-// take cities key from memory and display whats stored
+//displays saved cities
 function showSaved() {
   let cityList = document.querySelector("#saved-cities");
-  // remove all buttons already displayed to prevent redundant buttons
   cityList.textContent = "";
   let cityArr = JSON.parse(localStorage.getItem("cities"));
   if (cityArr) {
     for (let i = 0; i < cityArr.length; i++) {
       let cityBtn = document.createElement("button");
-      cityBtn.setAttribute("id", "quick-search");
+      cityBtn.setAttribute("id", "search-saved");
       cityBtn.textContent = cityArr[i];
-      cityBtn.setAttribute(
-        "class",
-        "btn btn-primary"
-      );
+      cityBtn.setAttribute("class","btn btn-primary");
 
      cityList.appendChild(cityBtn);
       cityBtn.addEventListener("click", function (event) {
