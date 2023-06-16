@@ -3,7 +3,7 @@ var city = "";
 
 function getData(city) {
 var saved = city;
-  fetch("http://api.openweathermap.org/data/2.5/weather?q=" + saved + "&APPID=2c539d28fae27ccabf480f3324f35f92&units=imperial", {
+  fetch("https://api.openweathermap.org/data/2.5/weather?q=" + saved + "&APPID=2c539d28fae27ccabf480f3324f35f92&units=imperial", {
     method: 'GET', //GETis the default.
     credentials: 'same-origin', // include, *same-origin, omit
     redirect: 'follow', // manual, *follow, error

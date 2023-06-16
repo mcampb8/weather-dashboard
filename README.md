@@ -12,8 +12,6 @@ This Application pulls in data from a Weather API and displays the data to the p
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
-none
 
 ## Usage
 This project will be used to have up to date weather information for whichever cities you would like to view
@@ -24,9 +22,8 @@ I worked on this project with some assistance from my tutor, David. He helped me
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 ---
-
-## Tests
-none
+![image](Screenshot.png)
+![image](Screenshot2.png)
 ## Questions
 [Email](mailto:michaelicampbell8@gmail.com)
 [Github](https://www.github.com/mcampb8)
